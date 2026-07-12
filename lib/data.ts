@@ -1,5 +1,3 @@
-import { sitePath } from "@/lib/site-path";
-
 // ─── Project Data ───
 
 export type ProjectStatus =
@@ -41,7 +39,7 @@ export const projects: Project[] = [
       { type: "playstore", url: "https://play.google.com/store/apps/details?id=sokaricare.sokari.com.sokari&hl=en" },
     ],
     color: "#53bfcc",
-    icon: sitePath("/Sok'ari.png"),
+    icon: "/Sok'ari.png",
   },
   {
     title: "Wael Academy",
@@ -56,7 +54,7 @@ export const projects: Project[] = [
       { type: "website", url: "https://app.waelacademy.com/" },
     ],
     color: "#d8de6b",
-    icon: sitePath("/Wael Academy.png"),
+    icon: "/Wael Academy.png",
   },
   {
     title: "Servini",
@@ -71,7 +69,7 @@ export const projects: Project[] = [
       { type: "playstore", url: "https://play.google.com/store/apps/details?id=online.servini.servini&hl=en" },
     ],
     color: "#f7bb02",
-    icon: sitePath("/Servini.png"),
+    icon: "/Servini.png",
   },
   {
     title: "LOLCards",
@@ -87,7 +85,7 @@ export const projects: Project[] = [
       { type: "website", url: "https://lolcards.io/#/language_page" },
     ],
     color: "#d1b680",
-    icon: sitePath("/LOL Cards.png"),
+    icon: "/LOL Cards.png",
   },
   {
     title: "NAEST Express",
@@ -100,7 +98,7 @@ export const projects: Project[] = [
     accessNote: "Private client project",
     links: [],
     color: "#030891",
-    icon: sitePath("/Naest Express.png"),
+    icon: "/Naest Express.png",
   },
   {
     title: "Kemawi",
@@ -113,7 +111,7 @@ export const projects: Project[] = [
     accessNote: "Source available upon request",
     links: [],
     color: "#16493d",
-    icon: sitePath("/Kemawi.png"),
+    icon: "/Kemawi.png",
   },
   {
     title: "Liyane",
@@ -126,7 +124,7 @@ export const projects: Project[] = [
     accessNote: "Contact for demo",
     links: [{ type: "website", url: "#" }],
     color: "#fcb985",
-    icon: sitePath("/Liyane.png"),
+    icon: "/Liyane.png",
   },
   {
     title: "Samt",
@@ -139,7 +137,7 @@ export const projects: Project[] = [
     accessNote: "Contact for demo",
     links: [{ type: "website", url: "#" }],
     color: "#4a3f34",
-    icon: sitePath("/Bayn.png"),
+    icon: "/Bayn.png",
   },
 ];
 
@@ -212,5 +210,5 @@ export const contact = {
   email: "dhiaabdlelli@gmail.com",
   linkedin: "https://linkedin.com/in/abdellidhia",
   github: "https://github.com/dhiaCodes",
-  resume: sitePath("/resume.pdf"),
+  resume: "/resume.pdf",
 };

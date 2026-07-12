@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { sitePath } from "@/lib/site-path";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -50,7 +49,7 @@ export function Header() {
           >
             <div className="relative w-7 h-7 rounded-full overflow-hidden border border-black/[0.08] transition-transform duration-300 group-hover:scale-105">
               <Image
-                src={sitePath("/avatar.jpg")}
+                src="/avatar.jpg"
                 alt="Dhia Eddine Abdelli"
                 fill
                 className="object-cover"
