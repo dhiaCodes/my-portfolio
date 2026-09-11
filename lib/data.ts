@@ -51,7 +51,7 @@ export const projects: Project[] = [
     statusLabel: "Live",
     links: [
 
-      { type: "website", url: "https://app.waelacademy.com/" },
+      { type: "website", url: "https://www.waelacademy.com/" },
     ],
     color: "#d8de6b",
     icon: "/Wael Academy.png",
