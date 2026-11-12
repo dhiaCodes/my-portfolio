@@ -42,21 +42,19 @@ export const projects: Project[] = [
     icon: "/Sok'ari.png",
   },
   {
-    title: "Wael Academy",
+    title: "Bricoli",
     description:
-      "A complete e-learning platform for web and mobile, integrating Zoom for live classes, robust course management, and subscription systems, successfully scaling to serve approximately 8,000 users.",
-    category: "EdTech",
-    platforms: ["ios", "android", "web"],
+      "Bricoli connects you with local professionals for home-related tasks and services.",
+    category: "Home Services",
+    platforms: ["ios"],
     status: "live",
     statusLabel: "Live",
     links: [
-
-      { type: "website", url: "https://www.waelacademy.com/" },
+      { type: "appstore", url: "https://apps.apple.com/fr/app/bricoli-local-home-services/id6805089277" },
     ],
-    color: "#d8de6b",
-    icon: "/Wael Academy.png",
-  },
-  {
+    color: "#679755",
+    icon: "/Bricoli.png",
+  }, {
     title: "Servini",
     description:
       "A booking application designed to boost restaurant revenue and improve the customer experience, helping the startup secure the Startup Act label and onboard multiple partner clients.",
@@ -71,6 +69,23 @@ export const projects: Project[] = [
     color: "#f7bb02",
     icon: "/Servini.png",
   },
+  {
+    title: "Wael Academy",
+    description:
+      "A complete e-learning platform for web and mobile, integrating Zoom for live classes, robust course management, and subscription systems, successfully scaling to serve approximately 8,000 users.",
+    category: "EdTech",
+    platforms: ["ios", "android", "web"],
+    status: "live",
+    statusLabel: "Live",
+    links: [
+
+      { type: "website", url: "https://app.waelacademy.com/" },
+    ],
+    color: "#d8de6b",
+    icon: "/Wael Academy.png",
+  },
+
+
   {
     title: "LOLCards",
     description:
